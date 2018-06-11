@@ -2,12 +2,13 @@
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/xml2csv.svg)](https://www.npmjs.com/package/@wmfs/xml2csv)
 [![Build Status](https://travis-ci.org/wmfs/xml2csv.svg?branch=master)](https://travis-ci.org/wmfs/xml2csv)
-[![codecov](https://codecov.io/gh/wmfs/xml2csv/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/xml2csv)
+
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/xml2csv/badge)](https://www.codefactor.io/repository/github/wmfs/xml2csv)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly/blob/master/packages/pg-concat/LICENSE)
+
 > Takes an XML file and transforms it into a CSV file, based on format of the map you provide with options. 
 
 ## <a name="install"></a>Install
