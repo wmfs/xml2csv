@@ -1,7 +1,4 @@
 language: node_js
-cache:
-  directories:
-    - ~/.npm
 notifications:
   email: false
 node_js:
@@ -10,10 +7,11 @@ install:
   - travis_retry npm install
 test:
   - npm test
-after_success:
+before_deploy:
   - npm run coverage
 deploy:
-  provider: script
-  script_cleanup: true
-  script:
-    - npx semantic-release
+  - provider: script
+    skip_cleanup: true
+    script: npx semantic-release
+    on:
+      branch: master
