@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/xml2csv/compare/v1.1.0...v1.2.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.2.1 to 3.2.2 ([fb4354b](https://github.com/wmfs/xml2csv/commit/fb4354b))
+
 # [1.1.0](https://github.com/wmfs/xml2csv/compare/v1.0.1...v1.1.0) (2018-09-11)
 
 
