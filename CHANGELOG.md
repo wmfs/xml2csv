@@ -1,3 +1,13 @@
+# [1.8.0](https://github.com/wmfs/xml2csv/compare/v1.7.0...v1.8.0) (2018-10-08)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.0.1 to 4.1.0 ([fc32e11](https://github.com/wmfs/xml2csv/commit/fc32e11))
+* **deps-dev:** update chai requirement from 4.1.2 to 4.2.0 ([37ef7e1](https://github.com/wmfs/xml2csv/commit/37ef7e1))
+* **deps-dev:** update semantic-release requirement ([3de4943](https://github.com/wmfs/xml2csv/commit/3de4943))
+* **deps-dev:** update semantic-release requirement ([eee6174](https://github.com/wmfs/xml2csv/commit/eee6174))
+
 # [1.7.0](https://github.com/wmfs/xml2csv/compare/v1.6.0...v1.7.0) (2018-09-12)
 
 
