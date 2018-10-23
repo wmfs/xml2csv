@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/wmfs/xml2csv/compare/v1.8.0...v1.9.0) (2018-10-23)
+
+
+### 🛠 Builds
+
+* **deps:** update dottie requirement from 2.0.0 to 2.0.1 ([6bc51c2](https://github.com/wmfs/xml2csv/commit/6bc51c2))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([a4ca1f5](https://github.com/wmfs/xml2csv/commit/a4ca1f5))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([d7ebdce](https://github.com/wmfs/xml2csv/commit/d7ebdce))
+* **deps-dev:** update nyc requirement from 13.0.1 to 13.1.0 ([36b01c7](https://github.com/wmfs/xml2csv/commit/36b01c7))
+* **deps-dev:** update semantic-release requirement ([fe5a548](https://github.com/wmfs/xml2csv/commit/fe5a548))
+* **deps-dev:** update semantic-release requirement ([4cbce08](https://github.com/wmfs/xml2csv/commit/4cbce08))
+* **deps-dev:** update semantic-release requirement ([5bb460e](https://github.com/wmfs/xml2csv/commit/5bb460e))
+
 # [1.8.0](https://github.com/wmfs/xml2csv/compare/v1.7.0...v1.8.0) (2018-10-08)
 
 
