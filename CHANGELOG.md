@@ -1,3 +1,23 @@
+# [1.10.0](https://github.com/wmfs/xml2csv/compare/v1.9.0...v1.10.0) (2019-02-08)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.1.0 to 4.1.1 ([8df7bac](https://github.com/wmfs/xml2csv/commit/8df7bac))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([2b4e88c](https://github.com/wmfs/xml2csv/commit/2b4e88c))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([43079fc](https://github.com/wmfs/xml2csv/commit/43079fc))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([fddce5c](https://github.com/wmfs/xml2csv/commit/fddce5c))
+* **deps-dev:** update nyc requirement from 13.1.0 to 13.2.0 ([d394008](https://github.com/wmfs/xml2csv/commit/d394008))
+* **deps-dev:** update semantic-release requirement ([5093086](https://github.com/wmfs/xml2csv/commit/5093086))
+* **deps-dev:** update semantic-release requirement ([688d6ab](https://github.com/wmfs/xml2csv/commit/688d6ab))
+* **deps-dev:** update semantic-release requirement ([2a6fdfc](https://github.com/wmfs/xml2csv/commit/2a6fdfc))
+* **deps-dev:** update semantic-release requirement ([7c0db5f](https://github.com/wmfs/xml2csv/commit/7c0db5f))
+* **deps-dev:** update semantic-release requirement ([e4977dd](https://github.com/wmfs/xml2csv/commit/e4977dd))
+* **deps-dev:** update semantic-release requirement ([906357b](https://github.com/wmfs/xml2csv/commit/906357b))
+* **deps-dev:** update semantic-release requirement ([da9d0bd](https://github.com/wmfs/xml2csv/commit/da9d0bd))
+* **deps-dev:** update semantic-release requirement ([a6fb930](https://github.com/wmfs/xml2csv/commit/a6fb930))
+* **deps-dev:** update semantic-release requirement ([e5aed12](https://github.com/wmfs/xml2csv/commit/e5aed12))
+
 # [1.9.0](https://github.com/wmfs/xml2csv/compare/v1.8.0...v1.9.0) (2018-10-23)
 
 
