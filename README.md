@@ -1,7 +1,7 @@
 # xml2csv
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/xml2csv.svg)](https://www.npmjs.com/package/@wmfs/xml2csv)
-[![Build Status](https://travis-ci.org/wmfs/xml2csv.svg?branch=master)](https://travis-ci.org/wmfs/xml2csv)
+[![CircleCI](https://circleci.com/gh/wmfs/xml2csv.svg?style=svg)](https://circleci.com/gh/wmfs/xml2csv)
 [![codecov](https://codecov.io/gh/wmfs/xml2csv/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/xml2csv)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/xml2csv/badge)](https://www.codefactor.io/repository/github/wmfs/xml2csv)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
