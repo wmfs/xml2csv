@@ -1,3 +1,27 @@
+# [1.11.0](https://github.com/wmfs/xml2csv/compare/v1.10.0...v1.11.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.11 to 4.17.14 ([5e3755b](https://github.com/wmfs/xml2csv/commit/5e3755b))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([fa26ff9](https://github.com/wmfs/xml2csv/commit/fa26ff9))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([6dee607](https://github.com/wmfs/xml2csv/commit/6dee607))
+* **deps-dev:** update codecov requirement from 3.1.0 to 3.5.0 ([928bb0e](https://github.com/wmfs/xml2csv/commit/928bb0e))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.4 ([74e28ed](https://github.com/wmfs/xml2csv/commit/74e28ed))
+* **deps-dev:** update nyc requirement from 13.2.0 to 14.1.1 ([416a6f3](https://github.com/wmfs/xml2csv/commit/416a6f3))
+* **deps-dev:** update semantic-release requirement ([57de68d](https://github.com/wmfs/xml2csv/commit/57de68d))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([6ddbb89](https://github.com/wmfs/xml2csv/commit/6ddbb89))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([7906810](https://github.com/wmfs/xml2csv/commit/7906810))
+* **travis:** Remove Travis config ([95998c4](https://github.com/wmfs/xml2csv/commit/95998c4))
+
 # [1.10.0](https://github.com/wmfs/xml2csv/compare/v1.9.0...v1.10.0) (2019-02-08)
 
 
