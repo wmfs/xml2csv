@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wmfs/xml2csv/compare/v1.11.0...v1.12.0) (2019-09-09)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.14 to 4.17.15 ([71a2556](https://github.com/wmfs/xml2csv/commit/71a2556))
+
 # [1.11.0](https://github.com/wmfs/xml2csv/compare/v1.10.0...v1.11.0) (2019-07-11)
 
 
