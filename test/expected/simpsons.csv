@@ -2,3 +2,4 @@ name,age,gender,brother,sister
 "Maggie",3,"Female","Bart","Lisa"
 "Lisa",3,"Female","Bart","Maggie"
 "Marge",45,"Female",,
+"Homer",47,"Male",,
