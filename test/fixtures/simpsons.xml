@@ -22,4 +22,9 @@
         <Age>45</Age>
         <Gender>Female</Gender>
     </Person>
+    <Person>
+        <Name><![CDATA[Homer]]></Name>
+        <Age>47</Age>
+        <Gender>Male</Gender>
+    </Person>
 </People>
