@@ -1,3 +1,22 @@
+# [1.13.0](https://github.com/wmfs/xml2csv/compare/v1.12.0...v1.13.0) (2020-01-08)
+
+
+### 🛠 Builds
+
+* **deps:** bump dottie from 2.0.1 to 2.0.2 ([6294911](https://github.com/wmfs/xml2csv/commit/629491124e002cf099ded0c113d8e799c9d7a178))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([4260fe8](https://github.com/wmfs/xml2csv/commit/4260fe8119538d2450a574d9b997a7013bb3c485))
+* **deps-dev:** bump packages ([cfb563a](https://github.com/wmfs/xml2csv/commit/cfb563a30adb66f57021b124b3cb7353ddfcc09f))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([4dbfcfb](https://github.com/wmfs/xml2csv/commit/4dbfcfbe2988adf4bf61fcebdd092af4fe2eab88))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([7a6d536](https://github.com/wmfs/xml2csv/commit/7a6d536f6368ad0b33374dcfdbb841b19a90da45))
+* **deps-dev:** update cz-conventional-changelog requirement ([7057936](https://github.com/wmfs/xml2csv/commit/70579365d636013e3294018ce801083b74b38e72))
+* **deps-dev:** update mocha requirement from 6.1.4 to 6.2.0 ([dddf11d](https://github.com/wmfs/xml2csv/commit/dddf11d3fa2a18b601f2acc83898cca15e4597a4))
+* **deps-dev:** update semantic-release requirement ([f296855](https://github.com/wmfs/xml2csv/commit/f2968551052a49c61d7d39b85776cd1639b7d1b2))
+
+
+### 🚨 Tests
+
+* added test case for CDATA ([02c54bf](https://github.com/wmfs/xml2csv/commit/02c54bf30eb2f7baf6985ae6d49ac015e4fab864))
+
 # [1.12.0](https://github.com/wmfs/xml2csv/compare/v1.11.0...v1.12.0) (2019-09-09)
 
 
