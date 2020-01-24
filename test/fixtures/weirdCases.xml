@@ -1,0 +1,38 @@
+<Weird>
+  <Case>
+    <First>This sentence has "double quotes"</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>This sentence has , comma</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>4"2</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>4,2</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>"42</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>,42</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>42</First>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <Second>control</Second>
+  </Case>
+  <Case>
+    <First>42</First>
+  </Case>
+  <Case>
+  </Case>
+</Weird>

@@ -60,4 +60,25 @@ describe('Run some basic tests', function () {
 
     expect(output).to.eql(expected)
   })
+
+  it('should convert the XML file to a CSV file with particular cases', async function () {
+    const outputFile = path.resolve(__dirname, 'output', 'weirdCases.csv')
+    const expectedFile = path.resolve(__dirname, 'expected', 'weirdCases.csv')
+
+    const res = await xml2csv({
+      xmlPath: path.resolve(__dirname, 'fixtures', 'weirdCases.xml'),
+      csvPath: outputFile,
+      rootXMLElement: 'Case',
+      headerMap: [
+        ['First', 'first', 'string'],
+        ['Second', 'second', 'string']
+      ]
+    })
+
+    expect(res).to.deep.equal({ count: 10 })
+    const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
+    const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
+
+    expect(output).to.eql(expected)
+  })
 })
