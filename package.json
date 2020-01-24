@@ -24,7 +24,7 @@
     "debug": "4.1.1",
     "dottie": "2.0.2",
     "lodash": "4.17.15",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.3",
     "sax": "1.2.4"
   },
   "devDependencies": {
