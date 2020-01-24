@@ -19,6 +19,8 @@ $ npm install xml2csv --save
 
 ## <a name="usage"></a>Usage
 
+### Use with callback
+
 ```javascript
 const xml2csv = require('xml2csv')
 
@@ -42,7 +44,58 @@ xml2csv(
 )
 
 ```
-Input: 
+
+### Use with Promises
+
+```javascript
+const xml2csv = require('xml2csv')
+
+xml2csv(
+  {
+    xmlPath: 'path/to/file.xml',
+    csvPath: 'path/to/file.csv',
+    rootXMLElement: 'Record',
+    headerMap: [
+      ['Name', 'name', 'string'],
+      ['Age', 'age', 'integer'],
+      ['Gender', 'gender', 'string'],
+      ['Brother', 'brother', 'string', 'Siblings'],
+      ['Sister', 'sister', 'string', 'Siblings']
+    ]
+  },
+)
+.then(console.log)
+.catch(console.log);
+```
+
+### Use with async/await
+
+```javascript
+const xml2csv = require('xml2csv')
+
+try {
+  const res = await xml2csv(
+    {
+      xmlPath: 'path/to/file.xml',
+      csvPath: 'path/to/file.csv',
+      rootXMLElement: 'Record',
+      headerMap: [
+        ['Name', 'name', 'string'],
+        ['Age', 'age', 'integer'],
+        ['Gender', 'gender', 'string'],
+        ['Brother', 'brother', 'string', 'Siblings'],
+        ['Sister', 'sister', 'string', 'Siblings']
+      ]
+    },
+  )
+  console.log(res)
+} catch(err) {
+  console.log(err)
+}
+```
+
+Input:
+
 ```
 <People>
     <Person>
@@ -75,8 +128,10 @@ name, age, gender, brother, sister
 
 | Property              | Type      | Notes  |
 | --------              | ----      | -----  |
-| `xmlPath`             | `string`  | A path to the xml input file.
-| `csvPath`             | `string`  | The path and filename of the generated CSV output file (note that any intermediate folders will be created).
+| `xmlPath`             | `string`  | A path to the xml input file. Cannot be provide with `xmlStream` property.
+| `xmlStream`           | `fs.ReadStream`  | A readable stream from an xml file. Cannot be provide with `xmlPath` property.
+| `csvPath`             | `string`  | The path and filename of the generated CSV output file (note that any intermediate folders will be created). Cannot be provide with `csvStream` property.
+| `csvStream`           | `fs.WriteStream`  | A writeable stream for the generated CSV data. Cannot be provide with `csvPath` property.
 | `rootXMLElement`      | `string`  | The XML root tag for each record, element to split records on in XML file.
 | `headerMap`           | `[array]` | See the [Header Map](#headerMap) section for more details.
 
