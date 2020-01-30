@@ -65,9 +65,11 @@ describe('Run integration tests', function () {
     const outputFile = path.resolve(__dirname, 'output', 'simpsons.csv')
     const expectedFile = path.resolve(__dirname, 'expected', 'simpsons.csv')
     fs.ensureFileSync(outputFile)
+    const xmlStream = fs.createReadStream(path.resolve(__dirname, 'fixtures', 'simpsons.xml'))
+    const csvStream = fs.createWriteStream(outputFile)
     const res = await xml2csv({
-      xmlStream: fs.createReadStream(path.resolve(__dirname, 'fixtures', 'simpsons.xml')),
-      csvStream: fs.createWriteStream(outputFile),
+      xmlStream,
+      csvStream,
       rootXMLElement: 'Person',
       headerMap: [
         ['Name', 'name', 'string'],
@@ -78,6 +80,7 @@ describe('Run integration tests', function () {
       ]
     })
 
+    expect(csvStream._writableState.ended).to.equal(true)
     expect(res).to.deep.equal({ count: 4 })
     const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
