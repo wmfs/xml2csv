@@ -6,14 +6,21 @@ const expect = require('chai').expect
 const xml2csv = require('./../lib')
 
 describe('Run integration tests', function () {
+  const simpsonsOutput = path.resolve(__dirname, 'output', 'simpsons.csv')
+  const weirdOutput = path.resolve(__dirname, 'output', 'weirdCases.csv')
+
+  beforeEach(() => {
+    fs.removeSync(simpsonsOutput)
+    fs.removeSync(weirdOutput)
+  })
+
   it('should convert the XML file to a CSV file with callback', function (done) {
-    const outputFile = path.resolve(__dirname, 'output', 'simpsons.csv')
     const expectedFile = path.resolve(__dirname, 'expected', 'simpsons.csv')
 
     xml2csv(
       {
         xmlPath: path.resolve(__dirname, 'fixtures', 'simpsons.xml'),
-        csvPath: outputFile,
+        csvPath: simpsonsOutput,
         rootXMLElement: 'Person',
         headerMap: [
           ['Name', 'name', 'string'],
@@ -27,7 +34,7 @@ describe('Run integration tests', function () {
         if (err) return done(err)
 
         expect(res).to.deep.equal({ count: 4 })
-        const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
+        const output = fs.readFileSync(simpsonsOutput, { encoding: 'utf8' }).split('\n')
         const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
 
         expect(output).to.eql(expected)
@@ -38,12 +45,11 @@ describe('Run integration tests', function () {
   })
 
   it('should convert the XML file to a CSV file with async/await', async function () {
-    const outputFile = path.resolve(__dirname, 'output', 'simpsons.csv')
     const expectedFile = path.resolve(__dirname, 'expected', 'simpsons.csv')
 
     const res = await xml2csv({
       xmlPath: path.resolve(__dirname, 'fixtures', 'simpsons.xml'),
-      csvPath: outputFile,
+      csvPath: simpsonsOutput,
       rootXMLElement: 'Person',
       headerMap: [
         ['Name', 'name', 'string'],
@@ -55,19 +61,20 @@ describe('Run integration tests', function () {
     })
 
     expect(res).to.deep.equal({ count: 4 })
-    const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
+    const output = fs.readFileSync(simpsonsOutput, { encoding: 'utf8' }).split('\n')
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
 
     expect(output).to.eql(expected)
   })
 
   it('should convert the XML file to a CSV file with stream', async function () {
-    const outputFile = path.resolve(__dirname, 'output', 'simpsons.csv')
     const expectedFile = path.resolve(__dirname, 'expected', 'simpsons.csv')
-    fs.ensureFileSync(outputFile)
+    fs.ensureFileSync(simpsonsOutput)
+    const xmlStream = fs.createReadStream(path.resolve(__dirname, 'fixtures', 'simpsons.xml'))
+    const csvStream = fs.createWriteStream(simpsonsOutput)
     const res = await xml2csv({
-      xmlStream: fs.createReadStream(path.resolve(__dirname, 'fixtures', 'simpsons.xml')),
-      csvStream: fs.createWriteStream(outputFile),
+      xmlStream,
+      csvStream,
       rootXMLElement: 'Person',
       headerMap: [
         ['Name', 'name', 'string'],
@@ -78,20 +85,20 @@ describe('Run integration tests', function () {
       ]
     })
 
+    expect(csvStream._writableState.ended).to.equal(true)
     expect(res).to.deep.equal({ count: 4 })
-    const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
+    const output = fs.readFileSync(simpsonsOutput, { encoding: 'utf8' }).split('\n')
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
 
     expect(output).to.eql(expected)
   })
 
   it('should convert the XML file to a CSV file with particular cases', async function () {
-    const outputFile = path.resolve(__dirname, 'output', 'weirdCases.csv')
     const expectedFile = path.resolve(__dirname, 'expected', 'weirdCases.csv')
 
     const res = await xml2csv({
       xmlPath: path.resolve(__dirname, 'fixtures', 'weirdCases.xml'),
-      csvPath: outputFile,
+      csvPath: weirdOutput,
       rootXMLElement: 'Case',
       headerMap: [
         ['First', 'first', 'string'],
@@ -100,7 +107,7 @@ describe('Run integration tests', function () {
     })
 
     expect(res).to.deep.equal({ count: 10 })
-    const output = fs.readFileSync(outputFile, { encoding: 'utf8' }).split('\n')
+    const output = fs.readFileSync(weirdOutput, { encoding: 'utf8' }).split('\n')
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
 
     expect(output).to.eql(expected)
