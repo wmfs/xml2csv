@@ -1,3 +1,25 @@
+# [1.14.0](https://github.com/wmfs/xml2csv/compare/v1.13.0...v1.14.0) (2020-01-30)
+
+
+### ✨ Features
+
+* end write stream ([86809b7](https://github.com/wmfs/xml2csv/commit/86809b7093d48c18c82398fa0b9f4b7b88081a05))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([6b0053e](https://github.com/wmfs/xml2csv/commit/6b0053e5a60b5395b70331bd849ef9685d1ebbb6))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([502b170](https://github.com/wmfs/xml2csv/commit/502b17017387a456ed53556389a4fbf5299c406a))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([80096ad](https://github.com/wmfs/xml2csv/commit/80096adb96a789bce0cadc826326e82dcb1a637c))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([431f22d](https://github.com/wmfs/xml2csv/commit/431f22d3a4ccbf8ae8f468ff102c32c4309c77d5))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([4c50d65](https://github.com/wmfs/xml2csv/commit/4c50d65662e9222789da777e85ca3151e0834137))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([abeb2d2](https://github.com/wmfs/xml2csv/commit/abeb2d2e17a80a0d3982a5259a1112e288a9f3e2))
+
+
+### 💎 Styles
+
+* standard --fix ([e199996](https://github.com/wmfs/xml2csv/commit/e199996fb6b9d1a8efc8f5818efb6040181d4bb9))
+
 # [1.13.0](https://github.com/wmfs/xml2csv/compare/v1.12.0...v1.13.0) (2020-01-08)
 
 
