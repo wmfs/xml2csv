@@ -1,3 +1,27 @@
+# [1.15.0](https://github.com/wmfs/xml2csv/compare/v1.14.0...v1.15.0) (2020-04-07)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 8.1.0 to 9.0.0 ([feba877](https://github.com/wmfs/xml2csv/commit/feba8774ce670994b57757b60369dd9c13a310bf))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([5d2d525](https://github.com/wmfs/xml2csv/commit/5d2d525e3dc78a1b50bb8c5107c815498baf8b81))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([5e5e5c7](https://github.com/wmfs/xml2csv/commit/5e5e5c79db38ef7848cdd9bf2694bd44d8c66e3f))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([dda999f](https://github.com/wmfs/xml2csv/commit/dda999f38a38f86795389d635353ee3f0e460f49))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([0fe1ee9](https://github.com/wmfs/xml2csv/commit/0fe1ee904a891536a2160f12de23990b8e53253c))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([d1427a6](https://github.com/wmfs/xml2csv/commit/d1427a60617c075ce50c48b18c6d5360589d4453))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([e9c4ff7](https://github.com/wmfs/xml2csv/commit/e9c4ff7bc895017560d0c63fa617a40c44af9c75))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([f9288ba](https://github.com/wmfs/xml2csv/commit/f9288ba492d1c03f4cf1608a87bf8cb71a9a1478))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([3b46949](https://github.com/wmfs/xml2csv/commit/3b469499a0550e78f0add04adfa06f82589a8b38))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([f823a69](https://github.com/wmfs/xml2csv/commit/f823a692454991ab4fafcd86995ca5881cdae572))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.4 ([87f42e8](https://github.com/wmfs/xml2csv/commit/87f42e8b64c2fe089f6c8937b06cef104ff3c3cc))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([2d023ee](https://github.com/wmfs/xml2csv/commit/2d023eeb58795b86c67a27aca949af4d37364bdc))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([a68f2b5](https://github.com/wmfs/xml2csv/commit/a68f2b5b3b9091f6ce60af8457272b085dfaf7e3))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([009e275](https://github.com/wmfs/xml2csv/commit/009e275865c42958fbe1376ddc7f01c3fa4d332b))
+
 # [1.14.0](https://github.com/wmfs/xml2csv/compare/v1.13.0...v1.14.0) (2020-01-30)
 
 
