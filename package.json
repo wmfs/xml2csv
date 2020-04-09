@@ -1,24 +1,7 @@
 {
-  "name": "@wmfs/xml2csv",
-  "version": "0.0.0-semantically-released",
-  "description": "Convert XML file to CSV file",
-  "author": "West Midlands Fire Service",
-  "homepage": "https://github.com/wmfs/xml2csv#readme",
-  "keywords": [
-    "tymly",
-    "xml",
-    "convert",
-    "package",
-    "csv"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wmfs/xml2csv.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wmfs/xml2csv/issues"
-  },
+  "name": "occxml2csv",
+  "version": "1.0.2",
+  "description": "occ xml 2 csv",
   "main": "./lib/index.js",
   "dependencies": {
     "debug": "4.1.1",
@@ -46,12 +29,19 @@
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "semantic-release": "semantic-release"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienphilippe/xml2csv.git"
+  },
+  "author": "julien philippe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julienphilippe/xml2csv/issues"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "homepage": "https://github.com/julienphilippe/xml2csv#readme"
 }

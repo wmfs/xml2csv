@@ -1,9 +1,9 @@
-# xml2csv
+# occxml2csv
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
-[![npm (scoped)](https://img.shields.io/npm/v/@wmfs/xml2csv.svg)](https://www.npmjs.com/package/@wmfs/xml2csv)
-[![CircleCI](https://circleci.com/gh/wmfs/xml2csv.svg?style=svg)](https://circleci.com/gh/wmfs/xml2csv)
-[![codecov](https://codecov.io/gh/wmfs/xml2csv/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/xml2csv)
-[![CodeFactor](https://www.codefactor.io/repository/github/wmfs/xml2csv/badge)](https://www.codefactor.io/repository/github/wmfs/xml2csv)
+[![npm (scoped)](https://img.shields.io/npm/v/@wmfs/occxml2csv.svg)](https://www.npmjs.com/package/@wmfs/occxml2csv)
+[![CircleCI](https://circleci.com/gh/wmfs/occxml2csv.svg?style=svg)](https://circleci.com/gh/wmfs/occxml2csv)
+[![codecov](https://codecov.io/gh/wmfs/occxml2csv/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/occxml2csv)
+[![CodeFactor](https://www.codefactor.io/repository/github/wmfs/occxml2csv/badge)](https://www.codefactor.io/repository/github/wmfs/occxml2csv)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -13,7 +13,7 @@
 
 ## <a name="install"></a>Install
 ```bash
-$ npm install xml2csv --save
+$ npm install occxml2csv --save
 ```
 
 
@@ -22,9 +22,9 @@ $ npm install xml2csv --save
 ### Use with callback
 
 ```javascript
-const xml2csv = require('xml2csv')
+const occxml2csv = require('occxml2csv')
 
-xml2csv(
+occxml2csv(
   {
     xmlPath: 'path/to/file.xml',
     csvPath: 'path/to/file.csv',
@@ -48,9 +48,9 @@ xml2csv(
 ### Use with Promises
 
 ```javascript
-const xml2csv = require('xml2csv')
+const occxml2csv = require('occxml2csv')
 
-xml2csv(
+occxml2csv(
   {
     xmlPath: 'path/to/file.xml',
     csvPath: 'path/to/file.csv',
@@ -71,10 +71,10 @@ xml2csv(
 ### Use with async/await
 
 ```javascript
-const xml2csv = require('xml2csv')
+const occxml2csv = require('occxml2csv')
 
 try {
-  const res = await xml2csv(
+  const res = await occxml2csv(
     {
       xmlPath: 'path/to/file.xml',
       csvPath: 'path/to/file.csv',
@@ -122,7 +122,7 @@ name, age, gender, brother, sister
 "Marge",45,"Female",,
 ```
 
-## xml2csv(`options`, `callback`)
+## occxml2csv(`options`, `callback`)
 
 ### Options
 
@@ -160,4 +160,4 @@ $ npm test
 
 
 ## <a name="license"></a>License
-[MIT](https://github.com/wmfs/tymly/xml2csv/blob/master/LICENSE)
+[MIT](https://github.com/wmfs/tymly/occxml2csv/blob/master/LICENSE)
