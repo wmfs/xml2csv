@@ -1,3 +1,28 @@
+# [1.16.0](https://github.com/wmfs/xml2csv/compare/v1.15.0...v1.16.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([521ade8](https://github.com/wmfs/xml2csv/commit/521ade83cc89c94b4e038b474705678e1f9aa229))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([6e1d85a](https://github.com/wmfs/xml2csv/commit/6e1d85aca0ec022667bb8313e5b6471b30ad0387))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([3fc1033](https://github.com/wmfs/xml2csv/commit/3fc103390b535993067b3d6930d8b34243861d39))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([aa23941](https://github.com/wmfs/xml2csv/commit/aa2394161837ef95080ee0858882bfd21ac0aba9))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([d34cffe](https://github.com/wmfs/xml2csv/commit/d34cffe299acf11b899eafa0a740f4d020b147b8))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([066cc6c](https://github.com/wmfs/xml2csv/commit/066cc6c14931117d463016afd1184f04db77350b))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([477ce1c](https://github.com/wmfs/xml2csv/commit/477ce1c9b00653933e893b9a93d3516a8e97956b))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([9eaf32f](https://github.com/wmfs/xml2csv/commit/9eaf32fa24d81921def89c6f869aed6268a59bb5))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([ce6dab9](https://github.com/wmfs/xml2csv/commit/ce6dab92fbdd769d8dd93b73ef7c20c25e76c831))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([e3494b0](https://github.com/wmfs/xml2csv/commit/e3494b005ab3e40b7d2bc2d1d6ab10701bc507c1))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([8cd8635](https://github.com/wmfs/xml2csv/commit/8cd86356c49b92d75cad134624eadd5cd7301f72))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([2ae8b75](https://github.com/wmfs/xml2csv/commit/2ae8b7592af1892f54b53c341800fe686b70c831))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([c6460d9](https://github.com/wmfs/xml2csv/commit/c6460d99494159a05a0071c2bc38acf7c34e2078))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([b76c104](https://github.com/wmfs/xml2csv/commit/b76c104ac9bfa62307aeb360108f66a2e0331877))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([211d91d](https://github.com/wmfs/xml2csv/commit/211d91d9011c6fa08fbaa39abd748a18dc8f3882))
+
 # [1.15.0](https://github.com/wmfs/xml2csv/compare/v1.14.0...v1.15.0) (2020-04-07)
 
 
