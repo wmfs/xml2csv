@@ -1,3 +1,19 @@
+# [1.17.0](https://github.com/wmfs/xml2csv/compare/v1.16.0...v1.17.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([0852e08](https://github.com/wmfs/xml2csv/commit/0852e08803e3a818ed270f06eea160509c4ade1e))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([a15aa5e](https://github.com/wmfs/xml2csv/commit/a15aa5eb3c2238773cb61e569e0f38ddfaae9478))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([d84822d](https://github.com/wmfs/xml2csv/commit/d84822d1dffa9584712fbfba98dc1070ec97ee16))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([978127c](https://github.com/wmfs/xml2csv/commit/978127c0107ac7fd382df171f4d49009c769b364))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([8838cde](https://github.com/wmfs/xml2csv/commit/8838cde1ea0c9db93b29e52369029ea83953de03))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([912f50d](https://github.com/wmfs/xml2csv/commit/912f50d75349d244a1f3ca428dece36e5744396f))
+
 # [1.16.0](https://github.com/wmfs/xml2csv/compare/v1.15.0...v1.16.0) (2020-07-13)
 
 
