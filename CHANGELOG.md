@@ -1,3 +1,15 @@
+# [1.18.0](https://github.com/wmfs/xml2csv/compare/v1.17.0...v1.18.0) (2020-09-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump debug from 4.1.1 to 4.2.0 ([e3534a4](https://github.com/wmfs/xml2csv/commit/e3534a46653d175fc44b2a79ff51bdcc0a498a2e))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([9edbc6c](https://github.com/wmfs/xml2csv/commit/9edbc6c3bdee253f6299fab7ae0b1347b859e96e))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([560ec76](https://github.com/wmfs/xml2csv/commit/560ec760c1b18d37a339bf03db8b4ee79f53b8d0))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([e670d07](https://github.com/wmfs/xml2csv/commit/e670d0709fdda96c47c058fdb0289fa2f4c034a3))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([3637e86](https://github.com/wmfs/xml2csv/commit/3637e86c93cebabd546c94f068efedff33c2eb12))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([5c7e66f](https://github.com/wmfs/xml2csv/commit/5c7e66feec3ae3f3c344c07e464b6a8980071c49))
+
 # [1.17.0](https://github.com/wmfs/xml2csv/compare/v1.16.0...v1.17.0) (2020-08-17)
 
 
