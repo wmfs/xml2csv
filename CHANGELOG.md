@@ -1,3 +1,11 @@
+# [1.19.0](https://github.com/wmfs/xml2csv/compare/v1.18.0...v1.19.0) (2020-10-09)
+
+
+### 🛠 Builds
+
+* **deps:** fs-extra  ^9.0.0  →  ^9.0.1 ([ad0e3a4](https://github.com/wmfs/xml2csv/commit/ad0e3a47d8a91bd708c7bfee7b2dceeff7b026e6))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([a8c8caa](https://github.com/wmfs/xml2csv/commit/a8c8caaaa31150ea5816fc56c2f7f54711d78503))
+
 # [1.18.0](https://github.com/wmfs/xml2csv/compare/v1.17.0...v1.18.0) (2020-09-28)
 
 
