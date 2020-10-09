@@ -23,7 +23,7 @@
   "dependencies": {
     "debug": "4.2.0",
     "dottie": "2.0.2",
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^9.0.1",
     "lodash": "4.17.20",
     "sax": "1.2.4"
   },
