@@ -1,3 +1,13 @@
+# [1.20.0](https://github.com/wmfs/xml2csv/compare/v1.19.0...v1.20.0) (2020-10-19)
+
+
+### 🛠 Builds
+
+* **deps:** Set fs-extra package as 9.0.1 instead of ^9.0.1 ([eb1163d](https://github.com/wmfs/xml2csv/commit/eb1163d418b0fd7c45a7afe19a58c192343a9736))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([34d824a](https://github.com/wmfs/xml2csv/commit/34d824a0a81163093c795a24ec61ce274c7d0943))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([056e3ad](https://github.com/wmfs/xml2csv/commit/056e3ad9997f2ecc96fd09a9c30f197c3b05dd44))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([bca0498](https://github.com/wmfs/xml2csv/commit/bca0498568e2f37914ba43be659327e0d6a316d7))
+
 # [1.19.0](https://github.com/wmfs/xml2csv/compare/v1.18.0...v1.19.0) (2020-10-09)
 
 
