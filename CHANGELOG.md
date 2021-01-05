@@ -1,3 +1,30 @@
+# [1.21.0](https://github.com/wmfs/xml2csv/compare/v1.20.0...v1.21.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump debug from 4.2.0 to 4.3.1 ([b3817dc](https://github.com/wmfs/xml2csv/commit/b3817dc59889bd33290170d2e7dc6d4ca70da919))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([f294de8](https://github.com/wmfs/xml2csv/commit/f294de850eb8d1a69ffb2059da167bf387b490ed))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([41bc4a8](https://github.com/wmfs/xml2csv/commit/41bc4a84957188b6ef5adfd1ebb8aa4f56740330))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([b17c188](https://github.com/wmfs/xml2csv/commit/b17c1889509280d2b81b46a899eb1335551cc2f7))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([9abf35d](https://github.com/wmfs/xml2csv/commit/9abf35dc8331b8a1add2453dea77fad8f927e19a))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([a63ff3c](https://github.com/wmfs/xml2csv/commit/a63ff3c1133bfd42de89d72e7a1f42129a732d04))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([abd50a2](https://github.com/wmfs/xml2csv/commit/abd50a2ae1de13cdf4d1cc432934ab03b20b7a4b))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([598caba](https://github.com/wmfs/xml2csv/commit/598cabad2eed87c919916c30e68ddfea07e3209a))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([1f28237](https://github.com/wmfs/xml2csv/commit/1f282375c9a0108bdc5e3be1ee036a2ed78e3281))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([99b4f27](https://github.com/wmfs/xml2csv/commit/99b4f2719da47d7c8500b2cc181e379c86a5b01a))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([13daff3](https://github.com/wmfs/xml2csv/commit/13daff34c247f31d3afd41f6897794e2e522082f))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([4c8c8d2](https://github.com/wmfs/xml2csv/commit/4c8c8d294070eefc6d2313487de474160de4e829))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([4708632](https://github.com/wmfs/xml2csv/commit/470863212ef3b7bf375d6e6425f250d8ed532f9c))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([9c9a911](https://github.com/wmfs/xml2csv/commit/9c9a91134c57a79ff5c0ac38375392ee5676760d))
+* **circle:** cache dependencies [ch2770] ([85c394e](https://github.com/wmfs/xml2csv/commit/85c394e22191b8f1644d529895056ccd505e683c))
+* **circle:** separate linting job [ch1009] ([92608a8](https://github.com/wmfs/xml2csv/commit/92608a8a20062e5388bf0b2ce460f04dea02c341))
+* **circle:** update build environment variable context name [ch2771] ([ecf95ce](https://github.com/wmfs/xml2csv/commit/ecf95ced8b4b0c15edc7964598a531a7ccb994d0))
+
 # [1.20.0](https://github.com/wmfs/xml2csv/compare/v1.19.0...v1.20.0) (2020-10-19)
 
 
