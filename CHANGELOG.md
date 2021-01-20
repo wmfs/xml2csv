@@ -1,3 +1,14 @@
+# [1.22.0](https://github.com/wmfs/xml2csv/compare/v1.21.0...v1.22.0) (2021-01-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 9.0.1 to 9.1.0 ([a9a1e66](https://github.com/wmfs/xml2csv/commit/a9a1e665ab677f72f0abaa333d3d8bd4c8c93ca2))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([fd5f893](https://github.com/wmfs/xml2csv/commit/fd5f8931ca8acce114528ddf78a6caa0e17e07d8))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([04dea7c](https://github.com/wmfs/xml2csv/commit/04dea7c039020463df23ba0af5f73daeee126254))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([9635507](https://github.com/wmfs/xml2csv/commit/96355071558aec02f6718d0cd5817f744f79121c))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([28434ca](https://github.com/wmfs/xml2csv/commit/28434ca3c1269c2a492adffb5d9005b1117219f9))
+
 # [1.21.0](https://github.com/wmfs/xml2csv/compare/v1.20.0...v1.21.0) (2021-01-05)
 
 
