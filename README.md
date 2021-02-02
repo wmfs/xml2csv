@@ -13,7 +13,7 @@
 
 ## <a name="install"></a>Install
 ```bash
-$ npm install xml2csv --save
+$ npm install @wmfs/xml2csv --save
 ```
 
 
