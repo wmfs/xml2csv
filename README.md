@@ -22,7 +22,7 @@ $ npm install @wmfs/xml2csv --save
 ### Use with callback
 
 ```javascript
-const xml2csv = require('xml2csv')
+const xml2csv = require('@wmfs/xml2csv')
 
 xml2csv(
   {
@@ -48,7 +48,7 @@ xml2csv(
 ### Use with Promises
 
 ```javascript
-const xml2csv = require('xml2csv')
+const xml2csv = require('@wmfs/xml2csv')
 
 xml2csv(
   {
@@ -71,7 +71,7 @@ xml2csv(
 ### Use with async/await
 
 ```javascript
-const xml2csv = require('xml2csv')
+const xml2csv = require('@wmfs/xml2csv')
 
 try {
   const res = await xml2csv(
