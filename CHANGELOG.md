@@ -1,3 +1,17 @@
+# [1.23.0](https://github.com/wmfs/xml2csv/compare/v1.22.0...v1.23.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([77dc8b1](https://github.com/wmfs/xml2csv/commit/77dc8b1d414b2f8290233b2f2f427d8265fc793b))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([c25a056](https://github.com/wmfs/xml2csv/commit/c25a056efec4f1f783c0318cc3fa0ae536b40581))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([3f68231](https://github.com/wmfs/xml2csv/commit/3f68231c9d65de06c4f37d6ae5d8d9d7d2565ec4))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([11b29ff](https://github.com/wmfs/xml2csv/commit/11b29ffce32112668be4abd34b8abafb8b0737c4))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([83da259](https://github.com/wmfs/xml2csv/commit/83da25982c6a29c95970ceb57da71f9241df7845))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([bc81727](https://github.com/wmfs/xml2csv/commit/bc8172763cbfe26b7e7166557b6167fa157987dc))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([c61f7a3](https://github.com/wmfs/xml2csv/commit/c61f7a3ff3fe1edbf3e1af7b56d131ed78734755))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([2a2859e](https://github.com/wmfs/xml2csv/commit/2a2859e7a01d0c3d5098ffd0a915a3a50f664cd3))
+
 # [1.22.0](https://github.com/wmfs/xml2csv/compare/v1.21.0...v1.22.0) (2021-01-20)
 
 
