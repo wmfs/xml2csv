@@ -26,8 +26,8 @@ const xml2csv = require('@wmfs/xml2csv')
 
 xml2csv(
   {
-    xmlPath: './file.xml',
-    csvPath: './file.csv',
+    xmlPath: 'path/to/file.xml',
+    csvPath: 'path/to/file.csv',
     rootXMLElement: 'Person',
     headerMap: [
       ['Name', 'name', 'string'],
