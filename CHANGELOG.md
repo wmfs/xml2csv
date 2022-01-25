@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/wmfs/xml2csv/compare/v1.25.0...v1.26.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency debug to v4.3.3 ([1991967](https://github.com/wmfs/xml2csv/commit/19919673b9cbb106cc62851ef92be00f20e465bc))
+
 # [1.25.0](https://github.com/wmfs/xml2csv/compare/v1.24.0...v1.25.0) (2022-01-25)
 
 
