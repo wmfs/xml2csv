@@ -1,3 +1,34 @@
+# [1.25.0](https://github.com/wmfs/xml2csv/compare/v1.24.0...v1.25.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([b0cc239](https://github.com/wmfs/xml2csv/commit/b0cc239037f224adcc50b7eff2e293ca96ad8d76))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([89f5462](https://github.com/wmfs/xml2csv/commit/89f54627b0fd7d63d1dacb16d6565738742888ef))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([98a300d](https://github.com/wmfs/xml2csv/commit/98a300dc8d8772f3fac272f18e1bcc4ba96add0b))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([1a44b68](https://github.com/wmfs/xml2csv/commit/1a44b68d78369c3e7c3a44331a94574e329d3b70))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([17b1f1f](https://github.com/wmfs/xml2csv/commit/17b1f1feb7b6a0f814c989c7fdb8b6e77bf91725))
+* **deps-dev:** update dependency mocha to v9.1.0 ([607c9ad](https://github.com/wmfs/xml2csv/commit/607c9ad631e7d598fdab7c8c198d138cc01995a4))
+* **deps-dev:** update dependency mocha to v9.1.1 ([386edd4](https://github.com/wmfs/xml2csv/commit/386edd472f18c5409fb1a8b764d2fdbdb1a97d6a))
+* **deps-dev:** update dependency mocha to v9.1.2 ([abb5d7d](https://github.com/wmfs/xml2csv/commit/abb5d7d3516f3ba2f4cdc1056d687188d5468ac6))
+* **deps-dev:** update dependency mocha to v9.1.3 ([7edbb09](https://github.com/wmfs/xml2csv/commit/7edbb09db7cf54e96729f875a8eb2dd33edfc390))
+* **deps-dev:** update dependency mocha to v9.1.4 ([31f2ef1](https://github.com/wmfs/xml2csv/commit/31f2ef1ac75dbf316409a7d5d3fe7bb8e1c09000))
+* **deps-dev:** update dependency mocha to v9.2.0 ([b96917e](https://github.com/wmfs/xml2csv/commit/b96917e114c62fcc229ca00b4adae92542d23688))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([e9f8982](https://github.com/wmfs/xml2csv/commit/e9f89829d6fc4a5336082e9e93b7ffea31e03720))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([c9fa4c5](https://github.com/wmfs/xml2csv/commit/c9fa4c583cd575f1f3b0f880ebc3c15059503401))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([20165b7](https://github.com/wmfs/xml2csv/commit/20165b745af49e636d94ac12f95fb652445c468f))
+* **deps-dev:** update dependency semantic-release to v18 ([54117d7](https://github.com/wmfs/xml2csv/commit/54117d76a36e50f7ca905f8d2f77280763566e6d))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([84bd655](https://github.com/wmfs/xml2csv/commit/84bd655f1a779a833e494748986fd0f1da967206))
+* **deps-dev:** update dependency semantic-release to v19 ([6d856e7](https://github.com/wmfs/xml2csv/commit/6d856e7dc4527ff124f994a4f15a440982665f12))
+* **deps-dev:** update dependency standard to v16.0.4 ([36a6eab](https://github.com/wmfs/xml2csv/commit/36a6eabba6c1015b28a1fcf9c3f167c7f55b9ff3))
+* **deps-dev:** update semantic-release monorepo ([e46badd](https://github.com/wmfs/xml2csv/commit/e46badde877245c73fcf9d3ebaa0b976b26729e5))
+* **deps:** update dependency fs-extra to v10 ([7c52722](https://github.com/wmfs/xml2csv/commit/7c527229eff5356838b9deb810b34605db96ea5a))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([bf74161](https://github.com/wmfs/xml2csv/commit/bf74161456eeaf3c8ef4613dd2b9c0a1602d79cc))
+
 # [1.24.0](https://github.com/wmfs/xml2csv/compare/v1.23.0...v1.24.0) (2021-07-09)
 
 
