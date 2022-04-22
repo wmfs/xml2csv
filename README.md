@@ -134,6 +134,7 @@ name, age, gender, brother, sister
 | `csvStream`           | `fs.WriteStream`  | A writeable stream for the generated CSV data. Cannot be provide with `csvPath` property.
 | `rootXMLElement`      | `string`  | The XML root tag for each record, element to split records on in XML file.
 | `headerMap`           | `[array]` | See the [Header Map](#headerMap) section for more details.
+| `strict`              | `[boolean]` | Should the sax parser run in strict mode ? Defaults to `true`.
 
 ### <a name="headerMap"></a>options.headerMap
 
