@@ -8,10 +8,12 @@ const xml2csv = require('./../lib')
 describe('Run integration tests', function () {
   const simpsonsOutput = path.resolve(__dirname, 'output', 'simpsons.csv')
   const weirdOutput = path.resolve(__dirname, 'output', 'weirdCases.csv')
+  const wronglyPlacedOutput = path.resolve(__dirname, 'output', 'wronglyPlaced.csv')
 
   beforeEach(() => {
     fs.removeSync(simpsonsOutput)
     fs.removeSync(weirdOutput)
+    fs.removeSync(wronglyPlacedOutput)
   })
 
   it('should convert the XML file to a CSV file with callback', function (done) {
@@ -108,6 +110,26 @@ describe('Run integration tests', function () {
 
     expect(res).to.deep.equal({ count: 10 })
     const output = fs.readFileSync(weirdOutput, { encoding: 'utf8' }).split('\n')
+    const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
+
+    expect(output).to.eql(expected)
+  })
+
+  it('should convert the XML file to a CSV ignoring weird texts at wrong place', async function () {
+    const expectedFile = path.resolve(__dirname, 'expected', 'wronglyPlaced.csv')
+
+    const res = await xml2csv({
+      xmlPath: path.resolve(__dirname, 'fixtures', 'wronglyPlaced.xml'),
+      csvPath: wronglyPlacedOutput,
+      rootXMLElement: 'Case',
+      headerMap: [
+        ['First', 'first', 'string'],
+        ['Second', 'second', 'string']
+      ]
+    })
+
+    expect(res).to.deep.equal({ count: 1 })
+    const output = fs.readFileSync(wronglyPlacedOutput, { encoding: 'utf8' }).split('\n')
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf8' }).split('\n')
 
     expect(output).to.eql(expected)
