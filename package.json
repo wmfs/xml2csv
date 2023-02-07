@@ -22,7 +22,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "debug": "4.3.4",
-    "dottie": "2.0.2",
+    "dottie": "2.0.3",
     "fs-extra": "10.1.0",
     "lodash": "4.17.21",
     "sax": "1.2.4"
