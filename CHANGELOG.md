@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/wmfs/xml2csv/compare/v1.29.0...v1.30.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency fs-extra to v11 ([f575b62](https://github.com/wmfs/xml2csv/commit/f575b6288eba2477a1708156e64f1e26d8b69843))
+
 # [1.29.0](https://github.com/wmfs/xml2csv/compare/v1.28.0...v1.29.0) (2023-03-13)
 
 
