@@ -1,3 +1,20 @@
+# [1.29.0](https://github.com/wmfs/xml2csv/compare/v1.28.0...v1.29.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([a0d527c](https://github.com/wmfs/xml2csv/commit/a0d527cb4e1f8ab9d4c1876cda711b0c774519e4))
+* **deps-dev:** update dependency chai to v4.3.7 ([1b10779](https://github.com/wmfs/xml2csv/commit/1b10779ed85ea480e597e0bcbb22149834f2f687))
+* **deps-dev:** update dependency mocha to v10.2.0 ([fbf9d78](https://github.com/wmfs/xml2csv/commit/fbf9d78612ade42a57d671aff8095ed6c3cffa65))
+* **deps-dev:** update dependency semantic-release to v20 ([241d8f8](https://github.com/wmfs/xml2csv/commit/241d8f8a5ed653cf38c16e14f3a31e77b5798cfd))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([884301d](https://github.com/wmfs/xml2csv/commit/884301d0297844343bf06596d23352ef7ef1cf83))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([40b836c](https://github.com/wmfs/xml2csv/commit/40b836c7a81b8ae2db68f1d3ca733f755fac0eeb))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([3d5eb03](https://github.com/wmfs/xml2csv/commit/3d5eb039c66974b16bdd714ec2f5a210b99985e5))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([2854495](https://github.com/wmfs/xml2csv/commit/285449571d79b141799de40548b976cc0cc441cd))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([1b9ea44](https://github.com/wmfs/xml2csv/commit/1b9ea44bac529f3a5b2b2092eb6c4f48c50c4991))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([fd3cb51](https://github.com/wmfs/xml2csv/commit/fd3cb518017f603807207b1cf389f3e078381a5b))
+* **deps:** update dependency dottie to v2.0.3 ([5d2b0d8](https://github.com/wmfs/xml2csv/commit/5d2b0d87e15b18dbc174c511b23ce13d5b90daf5))
+
 # [1.28.0](https://github.com/wmfs/xml2csv/compare/v1.27.0...v1.28.0) (2022-11-02)
 
 
