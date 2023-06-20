@@ -1,3 +1,18 @@
+# [1.31.0](https://github.com/wmfs/xml2csv/compare/v1.30.0...v1.31.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([7b1a130](https://github.com/wmfs/xml2csv/commit/7b1a130314b5b953d182fd8cf58652829cab47a2))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([e31a53f](https://github.com/wmfs/xml2csv/commit/e31a53f9eebf71af36d4e0aa0f47d472d7208ac2))
+* **deps-dev:** update dependency semantic-release to v21 ([8cbdc94](https://github.com/wmfs/xml2csv/commit/8cbdc94682294e906840f8f5714f67dccb02b5c8))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([f974b8c](https://github.com/wmfs/xml2csv/commit/f974b8ceda131e1138c0b7843d863b8f736522c9))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([147b50a](https://github.com/wmfs/xml2csv/commit/147b50a8309a490c9c9b6322324f61719cdf2912))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([5786202](https://github.com/wmfs/xml2csv/commit/5786202d5804e855c9bc2512b194ae6a16e10f42))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([ab79a82](https://github.com/wmfs/xml2csv/commit/ab79a82b3047408da7fb61d10dd4b650cc111a49))
+* **deps-dev:** update dependency standard to v17.1.0 ([04ccca8](https://github.com/wmfs/xml2csv/commit/04ccca8fed3e18e6bf18521434a2a8d294220aca))
+* **deps:** update dependency dottie to v2.0.6 ([e1f7da2](https://github.com/wmfs/xml2csv/commit/e1f7da2aecf99601d5d0e75d84b14c14b2756ff9))
+
 # [1.30.0](https://github.com/wmfs/xml2csv/compare/v1.29.0...v1.30.0) (2023-03-13)
 
 
