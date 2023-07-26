@@ -1,3 +1,12 @@
+# [1.32.0](https://github.com/wmfs/xml2csv/compare/v1.31.0...v1.32.0) (2023-07-26)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v21.0.6 ([347fbfd](https://github.com/wmfs/xml2csv/commit/347fbfdbd8c7e6b9893448ca50c94cef01a7e4c9))
+* **deps-dev:** update dependency semantic-release to v21.0.7 ([36203ab](https://github.com/wmfs/xml2csv/commit/36203ab702e758454b472a888bad8d0584947104))
+* **deps:** update dependency fs-extra to v11.1.1 ([283f43b](https://github.com/wmfs/xml2csv/commit/283f43bcd0c9d2eb28821da572791322326c5dd7))
+
 # [1.31.0](https://github.com/wmfs/xml2csv/compare/v1.30.0...v1.31.0) (2023-06-20)
 
 
