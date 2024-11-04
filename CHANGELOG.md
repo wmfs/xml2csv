@@ -1,3 +1,5 @@
+# [1.33.0](https://github.com/wmfs/xml2csv/compare/v1.32.0...v1.33.0) (2024-11-04)
+
 # [1.32.0](https://github.com/wmfs/xml2csv/compare/v1.31.0...v1.32.0) (2023-07-26)
 
 
