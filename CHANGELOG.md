@@ -1,3 +1,12 @@
+## [1.36.0](https://github.com/wmfs/xml2csv/compare/v1.35.0...v1.36.0) (2025-01-22)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#360](https://github.com/wmfs/xml2csv/issues/360)) ([11e65d7](https://github.com/wmfs/xml2csv/commit/11e65d7e68bdefdb14e8d97aadbfbb320ba37556))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#362](https://github.com/wmfs/xml2csv/issues/362)) ([6d9a3ee](https://github.com/wmfs/xml2csv/commit/6d9a3ee6ea978986dd9e1a67c629b641cdc928f2))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#359](https://github.com/wmfs/xml2csv/issues/359)) ([706d825](https://github.com/wmfs/xml2csv/commit/706d825b14ae4404e28a32ff270c90e3d13f6446))
+* **deps:** update dependency fs-extra to v11.3.0 ([#361](https://github.com/wmfs/xml2csv/issues/361)) ([22f2586](https://github.com/wmfs/xml2csv/commit/22f258615390b122772a7ea98343f244e015ca1c))
+
 # [1.35.0](https://github.com/wmfs/xml2csv/compare/v1.34.0...v1.35.0) (2024-12-09)
 
 # [1.34.0](https://github.com/wmfs/xml2csv/compare/v1.33.0...v1.34.0) (2024-11-04)
