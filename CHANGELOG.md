@@ -1,3 +1,31 @@
+## [1.38.0](https://github.com/wmfs/xml2csv/compare/v1.37.0...v1.38.0) (2025-10-21)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([#382](https://github.com/wmfs/xml2csv/issues/382)) ([42ab9f9](https://github.com/wmfs/xml2csv/commit/42ab9f9fa4ec7877847e01c563c4788309079780))
+* **deps-dev:** update dependency chai to v6 ([#380](https://github.com/wmfs/xml2csv/issues/380)) ([034c36d](https://github.com/wmfs/xml2csv/commit/034c36d0e63b22a57029f76588153e445614c512))
+* **deps-dev:** update dependency chai to v6.2.0 ([#386](https://github.com/wmfs/xml2csv/issues/386)) ([55a8e5f](https://github.com/wmfs/xml2csv/commit/55a8e5f6acbe79239ac69487fcebe44f6770d6d9))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#370](https://github.com/wmfs/xml2csv/issues/370)) ([e45b78a](https://github.com/wmfs/xml2csv/commit/e45b78afe6c3a4162c71f3c7c1b1ec164d524249))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#377](https://github.com/wmfs/xml2csv/issues/377)) ([bf9f0d7](https://github.com/wmfs/xml2csv/commit/bf9f0d7f503ba8e81b9c2040d9fa5f5454cb0b74))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#367](https://github.com/wmfs/xml2csv/issues/367)) ([42879a5](https://github.com/wmfs/xml2csv/commit/42879a53f5fb61cfebed640f745ab64233a6ab4f))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#369](https://github.com/wmfs/xml2csv/issues/369)) ([986da13](https://github.com/wmfs/xml2csv/commit/986da130b4933b65b778bc9b909b4205806c9bb5))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#372](https://github.com/wmfs/xml2csv/issues/372)) ([bea326e](https://github.com/wmfs/xml2csv/commit/bea326e6b591be06431b059618b7a15e9510751c))
+* **deps-dev:** update dependency mocha to v11.6.0 ([#373](https://github.com/wmfs/xml2csv/issues/373)) ([6c2f9de](https://github.com/wmfs/xml2csv/commit/6c2f9de5d3c346b272d4b912ebc013455b08d86a))
+* **deps-dev:** update dependency mocha to v11.7.0 ([#374](https://github.com/wmfs/xml2csv/issues/374)) ([6beacad](https://github.com/wmfs/xml2csv/commit/6beacad7736f8b87262c6b0c5ad6ca85ac86fb52))
+* **deps-dev:** update dependency mocha to v11.7.1 ([#375](https://github.com/wmfs/xml2csv/issues/375)) ([fd89d94](https://github.com/wmfs/xml2csv/commit/fd89d94dd40b40f1212095100143177e20521685))
+* **deps-dev:** update dependency mocha to v11.7.2 ([#381](https://github.com/wmfs/xml2csv/issues/381)) ([8d79b0f](https://github.com/wmfs/xml2csv/commit/8d79b0f1a03253dbddd3a40bef4ee9a74a37627a))
+* **deps-dev:** update dependency mocha to v11.7.3 ([#387](https://github.com/wmfs/xml2csv/issues/387)) ([0bcf0b7](https://github.com/wmfs/xml2csv/commit/0bcf0b7f987aa4c9a73d7e7fadb114e7dc72378e))
+* **deps-dev:** update dependency mocha to v11.7.4 ([#388](https://github.com/wmfs/xml2csv/issues/388)) ([03b2f81](https://github.com/wmfs/xml2csv/commit/03b2f818356b89b11980963d0fcda48b1f123ce1))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#368](https://github.com/wmfs/xml2csv/issues/368)) ([f14f462](https://github.com/wmfs/xml2csv/commit/f14f4622d99f601734da89c8900afe665deab716))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#371](https://github.com/wmfs/xml2csv/issues/371)) ([fbd1c19](https://github.com/wmfs/xml2csv/commit/fbd1c195827f306c7927931ab9ba0dbdb34475e8))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#376](https://github.com/wmfs/xml2csv/issues/376)) ([cdc2b8d](https://github.com/wmfs/xml2csv/commit/cdc2b8d2fa517132c70479fe3d2c47b33d87be20))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#378](https://github.com/wmfs/xml2csv/issues/378)) ([c07467e](https://github.com/wmfs/xml2csv/commit/c07467e26e8b16f36f4e4cae207b50702e5248c5))
+* **deps-dev:** update dependency semantic-release to v24.2.8 ([#383](https://github.com/wmfs/xml2csv/issues/383)) ([3a0b2ed](https://github.com/wmfs/xml2csv/commit/3a0b2ed8c4ae5c8e07b51408ddc8f59047fd64be))
+* **deps-dev:** update dependency semantic-release to v24.2.9 ([#385](https://github.com/wmfs/xml2csv/issues/385)) ([568e1d3](https://github.com/wmfs/xml2csv/commit/568e1d3dde72d24946e40f776c9c79f12572872c))
+* **deps-dev:** update dependency semantic-release to v25 ([#389](https://github.com/wmfs/xml2csv/issues/389)) ([8e0e43a](https://github.com/wmfs/xml2csv/commit/8e0e43aca440ea713be1f9b390d376dd916c01a6))
+* **deps-dev:** update dependency semantic-release to v25.0.1 ([#390](https://github.com/wmfs/xml2csv/issues/390)) ([8b4b7e2](https://github.com/wmfs/xml2csv/commit/8b4b7e26251ecba26a951a5458001ee18c3c4c4a))
+* **deps:** revert chai to non-esm ([b56d7e5](https://github.com/wmfs/xml2csv/commit/b56d7e5806b0d329d030592c2d35a2e9545793e5))
+
 ## [1.37.0](https://github.com/wmfs/xml2csv/compare/v1.36.0...v1.37.0) (2025-05-14)
 
 ### Build system dependencies :hammer:
