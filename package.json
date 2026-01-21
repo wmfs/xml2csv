@@ -24,7 +24,7 @@
     "debug": "4.4.1",
     "dottie": "2.0.6",
     "fs-extra": "11.3.0",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "sax": "1.4.1"
   },
   "devDependencies": {
