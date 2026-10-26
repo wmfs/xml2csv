@@ -21,7 +21,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "debug": "4.4.1",
+    "debug": "4.4.3",
     "dottie": "2.0.7",
     "fs-extra": "11.3.0",
     "lodash": "4.18.1",
