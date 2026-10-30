@@ -1,3 +1,22 @@
+## [1.39.0](https://github.com/wmfs/xml2csv/compare/v1.38.1...v1.39.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([6895359](https://github.com/wmfs/xml2csv/commit/6895359bc77ef0a2ca3c295e6ea12c1243c57e3c))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#423](https://github.com/wmfs/xml2csv/issues/423)) ([520316e](https://github.com/wmfs/xml2csv/commit/520316ec6ef8f0a701fdac088158eea913bd51f4))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#428](https://github.com/wmfs/xml2csv/issues/428)) ([8ebdfba](https://github.com/wmfs/xml2csv/commit/8ebdfba4e807644fe85a65043af933b5d5b51d50))
+* **deps-dev:** update dependency mocha to v12 ([#424](https://github.com/wmfs/xml2csv/issues/424)) ([1751f8d](https://github.com/wmfs/xml2csv/commit/1751f8d7caa19e081f49a2cd1db8b597c5f045dd))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#425](https://github.com/wmfs/xml2csv/issues/425)) ([5f2b7ac](https://github.com/wmfs/xml2csv/commit/5f2b7ac680b4cc55e5d6cb01e34e809170b11597))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#426](https://github.com/wmfs/xml2csv/issues/426)) ([4eee60e](https://github.com/wmfs/xml2csv/commit/4eee60e15bb04c88ba0139f84bf8b360f720f68a))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#427](https://github.com/wmfs/xml2csv/issues/427)) ([50afe84](https://github.com/wmfs/xml2csv/commit/50afe8448cef6ec365e62404ec915a5ecc713ecb))
+* **deps:** update dependency dottie to v2.0.7 [security] ([#402](https://github.com/wmfs/xml2csv/issues/402)) ([39bd695](https://github.com/wmfs/xml2csv/commit/39bd695b1c14d35053ded86e1930b70a9ae10bb5))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#397](https://github.com/wmfs/xml2csv/issues/397)) ([8eccc54](https://github.com/wmfs/xml2csv/commit/8eccc540b0b23b58b21ae0c39ae638ebf1631cbd))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#432](https://github.com/wmfs/xml2csv/issues/432)) ([8d7ab55](https://github.com/wmfs/xml2csv/commit/8d7ab55fa23a3622caf7a14f5681676048ff54b0))
+* use shared renovate preset [sc-34117] ([#431](https://github.com/wmfs/xml2csv/issues/431)) ([b4208af](https://github.com/wmfs/xml2csv/commit/b4208afc25c9e0711a7f0d39fdad48204450b099))
+
 ## [1.38.1](https://github.com/wmfs/xml2csv/compare/v1.38.0...v1.38.1) (2026-08-13)
 
 ## [1.38.0](https://github.com/wmfs/xml2csv/compare/v1.37.0...v1.38.0) (2025-10-21)
