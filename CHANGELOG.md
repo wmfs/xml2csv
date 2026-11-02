@@ -1,3 +1,9 @@
+## [1.42.0](https://github.com/wmfs/xml2csv/compare/v1.41.0...v1.42.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency debug to v4.4.3 ([#384](https://github.com/wmfs/xml2csv/issues/384)) ([3366392](https://github.com/wmfs/xml2csv/commit/3366392499c7e315b1992d5810a520cae753fddd))
+
 ## [1.41.0](https://github.com/wmfs/xml2csv/compare/v1.40.0...v1.41.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
