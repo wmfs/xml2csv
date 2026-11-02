@@ -1,3 +1,9 @@
+## [1.41.0](https://github.com/wmfs/xml2csv/compare/v1.40.0...v1.41.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency sax to v1.6.1 ([#392](https://github.com/wmfs/xml2csv/issues/392)) ([e210ff9](https://github.com/wmfs/xml2csv/commit/e210ff919f58b52825b9e7ab61fc78c6241b6491))
+
 ## [1.40.0](https://github.com/wmfs/xml2csv/compare/v1.39.0...v1.40.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
