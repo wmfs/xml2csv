@@ -1,3 +1,9 @@
+## [1.40.0](https://github.com/wmfs/xml2csv/compare/v1.39.0...v1.40.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency fs-extra to v11.4.1 ([#379](https://github.com/wmfs/xml2csv/issues/379)) ([824586d](https://github.com/wmfs/xml2csv/commit/824586d065a4fb11662e7c5d643cbbaecdc04455))
+
 ## [1.39.0](https://github.com/wmfs/xml2csv/compare/v1.38.1...v1.39.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
